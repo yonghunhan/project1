@@ -1,0 +1,46 @@
+html, body {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: salmon;
+}
+
+.heading {
+  min-width: 100%;
+  min-height: 10vh;
+  background-color: salmon;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  /* padding: 15%; */
+}
+
+.heading-content {
+  padding: 5%;
+  background: rgba(0, 128, 128, 0.9);
+  border: 12px double white;
+}
+
+.main-body {
+  margin: 50px 0;
+}
+
+.tweet {
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 2%;
+}
+
+.tweet-form {
+  margin-bottom: 30px;
+}
+
+.analyze {
+  margin-bottom: 10px;
+}
