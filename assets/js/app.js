@@ -123,7 +123,7 @@ $(document).ready(function () {
       list.addClass("list-group list-group-flush");
 
       for (i = 0; i < tone.length; i++) {
-        var toneScore = tone[i].score * 100;
+        var toneScore = (tone[i].score * 100).toFixed(2);
         var toneName = tone[i].tone_name;
         list.append("<li class='list-group-item'>" + toneName + " : " + toneScore);
       }
